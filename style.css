@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* { box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    
+}
+
+
+body {
+
+display: flex;
+flex-direction: column;
+margin: 0;
+
+
+
+
+
+
+}
+
+
+.first {
+    
+    padding: 10px 160px 0 160px;
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: stretch;
+    
+   
+
+}
+
+
+
+.header {
+
+    display: flex;
+    justify-content: space-between;
+
+    color: white;
+    flex-shrink: 1;
+    
+    
+
+}
+
+.righth {
+    display: flex;
+    gap: 30px;
+}
+.logo {
+
+   font-size: 24px;
+}
+
+.link {
+   
+    display: flex;
+    
+    font-size: small;
+    color: rgb(218, 215, 211);
+ 
+}
+
+li { list-style: none;
+    
+}
+
+.fbody {
+
+    display: flex;
+    min-width: 500px;
+    color: white;
+    margin-bottom: 80px;
+ 
+  
+}
+
+.left, .right {
+
+ 
+    flex: 1;
+}
+
+.left {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    min-width: 0;
+  
+}
+
+.right {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.tagline {
+
+    display: flex;  
+    margin:0 ;
+    padding-right: 200px;
+    font-weight: 900;
+    font-size: 48px;
+}
+.para {
+ 
+    margin:0 ;
+    color: rgb(218, 215, 211);
+    font-size:18px;
+    padding-right: 100px;
+    margin-bottom: 10px;
+}
+.buton 
+    {
+       
+        width: 500px;
+        
+        
+        }
+
+.buton button {
+
+    color: white;
+    background-color: rgb(41, 141, 199);
+    width: 70px;
+    border-radius: 5px;
+    padding: 5px;
+     font-size: 15px;
+     border: none;
+        
+}
+.tagline, .buton, .para{
+
+    padding-left: 10px;
+}
+
+.prompt {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(218, 215, 211);
+    
+}
+
+.sbody {
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    padding: 0 300px 0 300px;
+
+   
+}
+
+.scontent {
+
+    display:flex;
+    
+   
+    justify-content:center;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.box{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+     padding: 20px;
+     
+}
+
+.stitle {
+
+    margin: 50px 0 50px 0;
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937;
+}
+
+.tbody {
+    
+   flex-direction:column;
+   display:flex;
+   background-color: rgb(218, 214, 214);
+   padding: 100px 400px 100px 400px;
+  
+}
+
+.quote {
+
+    font-style: italic;
+    margin: 0;
+    font-size: 36px;
+    color: rgb(112, 110, 107);
+}
+
+.squote{
+    margin: 0;
+    display: flex;
+   
+   justify-content: end;
+   font-weight: bolder;
+}
+
+.finfo {
+  
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+        
+    
+}
+.ads {
+
+   
+    display: flex;
+    background-color: rgb(41, 141, 199);
+    width: 900px;
+    height: 140px;
+    justify-content: space-between;
+    padding: 0px 150px 0 150px;
+    border-radius: 5px;
+}
+
+.pbody {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ 
+  
+
+
+}
+.pbutton {
+
+    display:flex;
+    justify-content: center;
+    padding:55px 0 55px 0;
+   
+    
+
+}
+.pbutton button {
+width: 100px ;
+background-color: transparent;
+border-radius: 5px;
+border:1px solid white;
+color: white;
+font-size: 18px;
+    
+}
+
+.firstinfo, .secondinfo {
+margin: 0;
+}
+
+.firstinfo { 
+
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secondinfo {
+
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+#footer {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content:center;
+    background-color: #1f2937;
+    color:white;
+
+}
+
+.tfooter {
+
+    border: 1px solid rgb(218, 214, 214);;
+    padding: 15px;
+    font-size: small;
+    color: ;
+}
